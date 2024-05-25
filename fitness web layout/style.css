@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: poppins;
+}
+.bg_color{
+    background-color: #4CAF50;
+}
+.text-color{
+    color: #4CAF50;
+}
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.nav-links a:hover, .nav-links a.active {
+    text-decoration: underline;
+}
+
+.products-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* become section  */
+.become_member_section{
+   height: 500px;
+   background-image: url('image/Rectangle\ 1.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+  
+/* .WHY_fitness */
+.WHY_fitness img{
+    width: 300px;
+}
+
+
+.banner{
+    height: 300px;
+   background-image: url('image/Rectangle\ 12.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+/* our_service */
+.our_service img{
+    width: 400px;
+}
+
+
+
+/* GET YOUR */
+.image_box{
+    position: relative;
+}
+.vector_icon{
+    position: absolute;
+    top: 41%;
+    right: 46%;
+}
+
+/* footer  */
+footer{
+    height: 300px;
+    background-color: #000;
+}
+.input_section{
+    height: 150px;
+    width: 40%;
+    background-color: #4CAF50;
+    border-radius: 20px;
+}
+.input_section input{
+    padding: 0px 192px 0px 0px;
+    border-radius: 5px;
+    border: none;
+}
+.icon_img img{
+    width: 30px;
+}
